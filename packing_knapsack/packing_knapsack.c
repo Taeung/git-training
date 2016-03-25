@@ -16,7 +16,7 @@ struct jewelry {
 	unsigned int price;
 };
 
-void packing_knapsack(struct knapsack *knapsack_list,
+void pack_knapsack(struct knapsack *knapsack_list,
 		      struct jewelry **usable_jewels)
 {
 	/* Case by case pack knapsack following maximum
