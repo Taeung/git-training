@@ -6,31 +6,27 @@
  */
 #include <stdio.h>
 
-void grade_price_per_wgt(int price_per_wgt_list[])
-{
-	/* Arrange each value in order of price per 1 weight */
-}
+struct knapsack {
+	unsigned int limited_wgt;
+	unsigned int max_price;
+};
 
-int get_nr_of_try(int kinds)
+struct jewelry {
+	unsigned int wgt;
+	unsigned int price;
+};
+
+void packing_knapsack(struct knapsack *knapsack_list,
+		      struct jewelry **usable_jewels)
 {
-	/* Get the number of try that check whether
-	 * some result value is most close to theoretical maximum
+	/* Case by case pack knapsack following maximum
+	 * price per limited weight.
 	 */
 }
 
-int get_theor_maximum(int price_per_wgt_list[])
+int get_maxprice(struct knapsack *knapsack_list, struct jewelry *jewelry)
 {
-	/* Get a theoretical maximum following the highest
-	 * price per 1 weight.
-	 */
-}
-
-int get_cond_maximum(int price_per_wgt_list[], int exclu_index,
-		     int vital_index)
-{
-	/* Get a maximum with condition that some values
-	 * should be included or excluded.
-	 */
+	/* Get maximum price based on limited weight */
 }
 
 int main(int argc, const char **argv)
