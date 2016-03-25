@@ -13,6 +13,7 @@
 ### Stage
 1. Basic : Stage 1 ~ 10
 2. Advanced : Stage 11 ~ 14
+3. Smash : rebase something
 
 ### The results
 ![screenshot](img/results_20160327.png)
