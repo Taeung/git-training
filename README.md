@@ -1,5 +1,6 @@
 ## Git Training
 
+Hello 
 ##### Don't think about git, just do git !
 ##### (Based on a scenario; c programming with Git (Report card, Knapsack problem))
 ### Training Environment
