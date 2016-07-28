@@ -1,0 +1,38 @@
+<html>
+<head>
+
+ 	<script src="https://www.google.com/jsapi" type="text/javascript">
+ 	</script>
+
+ 	<script type="text/javascript">google.load("search", "1");
+
+
+ 	function initalize() {
+ 		var searchControl = new google.search.SearchControl();
+ 		searchControl.addSearcher(new google.search.NewsSearch());
+ 		searchControl.addSearcher(new google.search.ImageSearch());
+ 		searchControl.draw(document.getElementById("searchControl"));
+
+ 	}
+ 	google.setOnLoadCalback(initalize);
+
+ 	var container = document.getElementById("searchFormContainer");
+ 	this.searchForm = new google.search.SearchForm(false, container);
+ 	this.searchForm.setOnSubmitCallback(this, App.prototype.newSearch);
+
+ 	// 
+
+ 	App.prototype.newSearch = function(form) {
+ 		if(form.input.value) {
+ 			this.searchControl.execute(form.input.value);
+ 		}
+ 		return false;
+ 	}
+ 	</script>
+ 	</head>
+
+ 	<body>
+ 		<div id="searchcontrol"> 
+ 		</div>
+ 	</body>
+ </html>
