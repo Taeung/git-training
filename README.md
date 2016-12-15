@@ -27,3 +27,5 @@
 [git-training.docs.google](https://docs.google.com/spreadsheets/d/1uPMCOKISMgj_svsoxG1LF1RbozA9RMKfx7h9vT80Atc/edit#gid=0)
 
 ##### 161215 dvmoomoodv git-trainning seminar
+연역적 접근?
+간단한 내용만 습득한 뒤 경험으로의 자세한 내용 습득
