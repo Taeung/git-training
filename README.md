@@ -26,4 +26,4 @@
 ![screenshot](img/results_20160327.png)
 [git-training.docs.google](https://docs.google.com/spreadsheets/d/1uPMCOKISMgj_svsoxG1LF1RbozA9RMKfx7h9vT80Atc/edit#gid=0)
 
-##### 161215 dvmoomoodv study
+##### 161215 dvmoomoodv git-trainning seminar
