@@ -2,7 +2,7 @@
  * Packing knapsack question
  *
  * Copyright (C) 2016, Taeung Song <treeze.taeung@gmail.com>
- *
+ * seyun
  */
 #include <stdio.h>
 #include <stdbool.h>
