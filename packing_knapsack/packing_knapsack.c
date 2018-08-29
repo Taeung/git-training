@@ -5,6 +5,7 @@
  *
  */
 #include <stdio.h>
+<<<<<<< HEAD
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
@@ -75,10 +76,39 @@ bool get_values_from(char *input, unsigned int *val1, unsigned int *val2)
 	*val2 = atoi(ptr);
 
 	return true;
+=======
+
+void grade_price_per_wgt(int price_per_wgt_list[])
+{
+	/* Arrange each value in order of price per 1 weight */
+}
+
+int get_nr_of_try(int kinds)
+{
+	/* Get the number of try that check whether
+	 * some result value is most close to theoretical maximum
+	 */
+}
+
+int get_theor_maximum(int price_per_wgt_list[])
+{
+	/* Get a theoretical maximum following the highest
+	 * price per 1 weight.
+	 */
+}
+
+int get_cond_maximum(int price_per_wgt_list[], int exclu_index,
+		     int vital_index)
+{
+	/* Get a maximum with condition that some values
+	 * should be included or excluded.
+	 */
+>>>>>>> f9b87bb... packing knapsack: Basic code solving this question
 }
 
 int main(int argc, const char **argv)
 {
+<<<<<<< HEAD
 	int i;
 	struct jewelry *jewels;
 	char input[MAX_INPUT];
@@ -112,4 +142,6 @@ int main(int argc, const char **argv)
 	free(jewels);
 	free(knapsack_list);
 	return 0;
+=======
+>>>>>>> f9b87bb... packing knapsack: Basic code solving this question
 }
