@@ -1,0 +1,9 @@
+파이썬
+general purpose(많은 장점이 있지만 느리고 모바일지원이 잘 안된다.)
+느린것은 glue 방법(c랑 연동헤서 씀), 또는 텐서플로우 처럼 gpu하드웨어를 연동
+dynamic language(compile x=> interpretor 언어)
+jupyter==> julia, r, python을 다 지원
+jupyter는 muti 가 잘 안되는데 jupyter lab이 그것을 보안
+
+R
+domain specific 
