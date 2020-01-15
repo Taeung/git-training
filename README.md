@@ -17,7 +17,7 @@
 1. New version (v2)
     - Basic : Stage 1 ~ 7
     - Advanced : Stage 8 ~ 11
-	- Smash : rebase something
+	  - Smash : rebase something
 
 2. Old version (v1)
     - Basic : Stage 1 ~ 10
