@@ -17,6 +17,6 @@ int main()
 	printf("Math : %d\n", math);
 	printf("Sum : %d\n", sum);
 	printf("Average : %d\n", sum/3);
-	//temps
+	//주석 바꿨음!!
 	return 0;
 }
