@@ -1,0 +1,60 @@
+형식은 모듈로 만들어져 있으므로 하나로 만들어져 있어 유지 관리가 용이.
+디버깅 하기도 쉽고, 멀티 프로세싱때문에 별도로 실행시킬 수 있다는 장점
+
+How to . 딥러닝에 아주 밀접하기때문에 프로그래밍 할 때 아주 용이
+
+무조건 , functional 프로그램을 쓰는게 아닌, multi programming .
+
+
+personal
+
+ * functional.은 expression , immutable data를 많이 씀.
+
+ * loop x >> recursion을 씀
+
+BUT, Python 에서는 재귀함수(recursion)를 쓰지 않음
+ > 연산 속도가 느리며 메모리를 많이 차지하기 때문
+
+고차함수 : 함수를 인자로 받고 함수를 리턴할 수 있음
+
+* map *reduce * 
+
+else 문이 있는 곳에 Flow Control이 있다.
+
+이거 없이 functional paradime는 합성함수로 시행..
+
+LEGB 
+
+Encapsulation : 외부에서 내부로 접근할 수 없음,
+내부에서는 외부를 
+
+선언하고 정의하는 이유 : 재 사용하기 위해서.
+
+class 와 함수 :  Encapsulation
+
+* comprehension (ex : list , set , dictionary) : 간결하면서 속도가 빠름
+동시에 여러개를 만드는 방법을 comprehension은 하스캐리에서 실행..
+
+python도 지원함
+
+debug도 공부하기 때문에 에러 종류도 알아야 함
+
+* assert : 에러 반환 ,,  
+
+ * True False 반환하는것을  : predicate
+
+ * and // or 
+
+ * functional paradime : 합성함수를 이용함. 
+
+
+*의 쓰임 : 6가지
+
+연산 1개 2개
+sequence 
+function parameter 이름 없을 때 경우 : 키워드 방식
+이름 붙은 경우 : 가변 포지셔널
+가변 키워드
+argument 
+
+Local Enclosing global bulit_in
