@@ -1,3 +1,9 @@
+# ReadMe
+
+이 프로젝트는 git를 다루는 연습을 하기 위한 것입니다.
+testtest
+--- 
+
 ## Git Training
 
 ##### Don't think about git, just do git !
@@ -25,3 +31,5 @@
 ### The results (v1)
 ![screenshot](img/results_20160327.png)
 [git-training.docs.google](https://docs.google.com/spreadsheets/d/1uPMCOKISMgj_svsoxG1LF1RbozA9RMKfx7h9vT80Atc/edit#gid=0)
+
+
