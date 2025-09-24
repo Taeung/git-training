@@ -1,6 +1,6 @@
 #!/bin/python
 import random
-
+#.
 test_script = open("test.sh","w")
 
 test_script.write("#!/bin/bash\n")
